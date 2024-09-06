@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EcoWatt - Economize energia com dicas sustentáveis e faça sua parte para um futuro melhor.">
+    <title>EcoWatt - Pesquisa Sustentável</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Certifique-se que styles.css contém a animação -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <h1>EcoWatt</h1>
+            <p class="subtitle">Sua fonte de dicas sustentáveis para economizar energia</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Coluna 1 - Nível, Pontos e Missões -->
+        <aside class="side-column">
+            <div class="level-info">
+                <h2>Nível Atual: <span id="current-level">1</span></h2>
+                <p>Pontos: <span id="points">0</span></p>
+                <h3>Missão do Nível</h3>
+                <p id="mission"></p>
+
+                <!-- Barra de progresso do nível -->
+                <div class="progress-bar">
+                    <div class="progress-bar-fill">
+                        <p id="progresso-texto">0%</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Coluna 2 - Pesquisa e Resultados -->
+        <main class="main-column">
+            <section id="search-section">
+                <input type="text" id="search-input" placeholder="Digite aqui para encontrar dicas..." autocomplete="off">
+                <div id="suggestions"></div>
+            </section>
+        </main>
+
+        <!-- Coluna 3 - Histórico de Pesquisa -->
+        <aside class="side-column">
+            <h2>Histórico de Pesquisa</h2>
+            <div id="history"></div>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 EcoWatt - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/dados.js"></script>
+    <script src="js/missoes.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
