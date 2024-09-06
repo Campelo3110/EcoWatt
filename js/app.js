@@ -67,7 +67,6 @@ function levelUp() {
     totalPoints = 0; // Reseta os pontos ao subir de nível
     pointsDiv.textContent = totalPoints;
     currentLevelSpan.textContent = currentLevel; // Atualiza o nível na interface
-    progressBarFill.style.width = "0%"; // Reseta a barra de progresso
     alert(`Parabéns! Você subiu para o nível ${currentLevel}.`);
     generateMission(); // Gera uma nova missão
 }
