@@ -178,5 +178,30 @@ const dicas = {
         "Desligue a máquina logo após preparar o café.",
         "Utilize o modo de economia de energia se a máquina tiver essa função.",
         "Limpe o reservatório e os filtros com frequência para evitar entupimentos e manter a eficiência."
+    ],
+    "aquecedor elétrico": [
+    "Desligue o aquecedor após o uso para economizar energia.",
+    "Use a temperatura mínima necessária para o ambiente.",
+    "Evite o uso prolongado e mantenha o aquecedor em locais fechados."
+    ],
+    "freezer": [
+        "Descongele o freezer regularmente para manter a eficiência.",
+        "Mantenha o freezer bem cheio para otimizar o consumo de energia.",
+        "Ajuste a temperatura para evitar desperdício de energia."
+    ],
+    "lavadora a seco": [
+        "Utilize a lavadora a seco apenas quando necessário para economizar energia.",
+        "Siga as instruções do fabricante para a carga máxima recomendada.",
+        "Limpe o filtro regularmente para garantir o funcionamento eficiente."
+    ],
+    "sistema de irrigação automatizado": [
+        "Programe o sistema para funcionar em horários específicos para economizar água e energia.",
+        "Verifique e mantenha os sensores de umidade em bom estado.",
+        "Use o sistema somente quando necessário, ajustando conforme a necessidade do jardim."
+    ],
+    "panela de pressão elétrica": [
+        "Desligue a panela de pressão elétrica assim que o cozimento estiver completo.",
+        "Use a função de aquecimento com moderação e apenas quando necessário.",
+        "Mantenha a panela limpa para otimizar o desempenho e a eficiência energética."
     ]
 };
