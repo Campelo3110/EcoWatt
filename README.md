@@ -2,9 +2,12 @@
 
 **Economize energia enquanto aprende sobre práticas sustentáveis!**
 
-![EcoWatt Banner](https://imgur.com/iVkY6SQ.gif)
+[![EcoWatt Banner](https://imgur.com/iVkY6SQ.gif)](https://eco-watt.vercel.app/)
 
 **EcoWatt** é um aplicativo interativo projetado para ajudar as pessoas a economizarem energia no dia a dia, proporcionando dicas práticas e missões desafiadoras que estimulam o usuário a melhorar seus hábitos de consumo energético. Gamificamos a experiência com um sistema de níveis, progresso e pontuação, tornando o aprendizado mais divertido e engajador.
+
+### Entre no site [apertando aqui](https://eco-watt.vercel.app/) ou copie o link abaixo
+https://eco-watt.vercel.app/
 
 ## 🔥 Funcionalidades Principais
 
