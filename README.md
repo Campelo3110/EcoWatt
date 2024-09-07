@@ -1,6 +1,17 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/Responsive-Mobile%20Ready-blue?style=for-the-badge&logo=mobile&logoColor=white">
+  <img src="https://img.shields.io/badge/Open%20Source-%E2%9C%94%EF%B8%8F-green?style=for-the-badge&logo=github">
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
+</p>
+
 # 🌿 EcoWatt - Economize Energia de Forma Inteligente 🌍
 
 **Economize energia enquanto aprende sobre práticas sustentáveis!**
+
+---
 
 [![EcoWatt Banner](https://imgur.com/iVkY6SQ.gif)](https://eco-watt.vercel.app/)
 
@@ -25,6 +36,56 @@ https://eco-watt.vercel.app/
 
 ### 📱 **Design Responsivo**
 - **Experiência Otimizada para Dispositivos Móveis:** EcoWatt foi criado para oferecer uma experiência impecável tanto no desktop quanto em dispositivos móveis, garantindo que você tenha acesso às suas dicas de economia de energia em qualquer lugar.
+
+## 🏗️ **Estrutura do Projeto**
+
+O projeto **EcoWalltV2** está organizado de maneira clara e modular para facilitar o desenvolvimento, manutenção e contribuições da comunidade.
+
+```bash
+EcoWalltV2/
+│
+├── css/                  # Arquivos de estilo (CSS)
+│   ├── main.css          # Estilos principais da aplicação
+│   └── animations.css    # Animações e efeitos visuais
+│
+├── js/                   # Arquivos JavaScript
+│   ├── app.js            # Lógica principal do aplicativo
+│   ├── missoes.js        # Gerenciamento de missões e níveis
+│   └── dicas.js          # Funções para pesquisa e dicas de dispositivos
+│
+├── img/                  # Imagens e ícones utilizados no projeto
+│   └── logo.png          # Logotipo da aplicação
+│
+├── sounds/
+│   └── sucesso.mp3       # Som de acerto
+│
+├── index.html            # Página principal do aplicativo
+│
+└── README.md             # Documentação principal
+```
+
+### 📂 **Descrição das pastas e arquivos**
+
+- **`/css/`**: Contém todos os estilos que definem a aparência da aplicação.
+  - `main.css`: Estilo principal que define o layout, fontes e cores.
+  - `animations.css`: Estilos para as animações e transições, tornando a experiência mais interativa.
+
+- **`/js/`**: Scripts responsáveis pela funcionalidade do site.
+  - `app.js`: Lógica geral da aplicação, incluindo a gamificação, níveis e pontos.
+  - `missoes.js`: Arquivo que gerencia as missões e distribui novos desafios conforme o progresso do usuário.
+  - `dicas.js`: Funções que lidam com a busca por dicas e histórico de pesquisa.
+
+- **`/img/`**: Contém as imagens e ícones usados na interface do site.
+  - `logo.png`: Imagem do logotipo exibido na página inicial.
+
+- **`/sounds/`**: Contém o efeito visual usado ao acertar uma missão.
+  - `sucesso.mp3`: SOm de acerto.
+
+- **`index.html`**: O ponto de entrada do site, que une o HTML com os scripts e estilos.
+
+- **`README.md`**: Documentação detalhada do projeto, com instruções de uso e desenvolvimento.
+
+--
 
 ## 🚧 **Como Instalar e Rodar o Projeto Localmente**
 
