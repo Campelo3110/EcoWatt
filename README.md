@@ -20,7 +20,7 @@
 ### Entre no site [apertando aqui](https://eco-watt.vercel.app/) ou copie o link abaixo
 https://eco-watt.vercel.app/
 
-As perguntas e respostas se encontro [aqui](/faq.md) ou apertando no arquivo faq.md
+As perguntas e respostas se encontro [aqui](/FAQ.md) ou apertando no arquivo FAQ.md
 
 ## 🔥 Funcionalidades Principais
 
